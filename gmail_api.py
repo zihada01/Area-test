@@ -41,4 +41,6 @@ def auth_gmail():
     service = gmail_authenticate()
     gmail_service = service
     return '0K', 200
+    
+//It's just a test for the area push event
 
