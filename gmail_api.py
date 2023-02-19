@@ -35,10 +35,9 @@ def gmail_authenticate():
     service = build('gmail', 'v1', credentials=creds)
     return (service)
 
-/*@Gmail.route('/auth_gmail', methods=['POST'])
+@Gmail.route('/auth_gmail', methods=['POST'])
 def auth_gmail():
     global gmail_service
     service = gmail_authenticate()
     gmail_service = service
     return '0K', 200
-*/
